@@ -1,0 +1,13 @@
+1.make a directory in HDFS Storage as 'pig' where all data is to be stored.
+      hadoop fs -mkdir /pig
+2.load DelayedFlights.csv file into HDFS Storage.
+      hadoop fs -put /home/richa/Desktop/DelayedFlights.csv /pig
+3.load airports.csv file into HDFS.
+      hadoop fs -put /home/richa/Desktop/airports.csv /pig
+4.open Grunt Shell to run commands.
+      pig
+5.Execute each problem commands, after Registering piggybank.jar
+      a. run /home/richa/Desktop/problem1.pig
+      b. run /home/richa/Desktop/problem2.pig
+      c. run /home/richa/Desktop/problem3.pig
+      d. run /home/richa/Desktop/problem4.pig
